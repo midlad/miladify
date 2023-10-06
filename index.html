@@ -14,25 +14,37 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <blockquote class="quote">
-      <p class="quote__text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        officia sapiente ratione temporibus nam eligendi iure eaque optio harum
-        aut.
-      </p>
-      <footer>
-        <div class="media">
-          <div class="media__image quote__icon">
-            <svg class="icon icon--primary">
-              <use xlink:href="/images/sprite.svg#line"></use>
+    <div class="card testimonial">
+      <div class="grid grid--1x2">
+        <div class="tetimonial__image">
+          <img src="/images/testimonial.jpg" alt="A happy, smiling customer." />
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small">
+              <use xlink:href="/images/sprite.svg#quotes"></use>
             </svg>
-          </div>
-          <div class="media__body">
-            <h3 class="media__title quote__auther">John Smith</h3>
-            <p class="media__text quote__organization">ABC Company</p>
-          </div>
+          </span>
         </div>
-      </footer>
-    </blockquote>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            officia sapiente ratione temporibus nam eligendi iure eaque optio
+            harum aut.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image quote__icon">
+                <svg class="icon icon--primary">
+                  <use xlink:href="/images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__auther">John Smith</h3>
+                <p class="media__text quote__organization">ABC Company</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
   </body>
 </html>
